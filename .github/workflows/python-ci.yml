@@ -18,8 +18,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run Python program
-        run: python unittest
-
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Run Python tests
+        run: python -m unittest
