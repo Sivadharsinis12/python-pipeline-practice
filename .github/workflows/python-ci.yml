@@ -19,4 +19,4 @@ jobs:
           python-version: "3.12"
 
       - name: Run Python program
-        run: python main.py
+        run: python unittest
