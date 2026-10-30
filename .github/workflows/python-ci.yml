@@ -20,3 +20,6 @@ jobs:
 
       - name: Run Python program
         run: python unittest
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
